@@ -1,0 +1,14 @@
+#MY AWESOME REST API
+
+##INSTALATION
+
+'''
+pip install Flask
+py app.py
+'''
+
+##Description
+
+
+##IMPLEMENTATION
+THIS PROJECT IS ONLY FOR LEARNING
