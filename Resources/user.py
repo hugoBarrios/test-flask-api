@@ -1,4 +1,3 @@
-from email import message
 import sqlite3
 from flask_restful import Resource, reqparse
 from Models.user import UserModel
