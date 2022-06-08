@@ -7,7 +7,6 @@ from security import autenticate, identity  # Libreria creada por nosotros
 from Resources.user import UserRegister
 from Resources.item import Item, ItemList
 from Models.user import UserModel
-from db import db
 from Resources.store import Store, StoreList
 
 app = Flask(__name__)
@@ -34,5 +33,7 @@ api.add_resource(StoreList, "/stores")
 
 
 if __name__ == "__main__":
+    from db import db
+
     db.init_app(app)
     app.run(port=5000, debug=True)
