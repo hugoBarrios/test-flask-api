@@ -1,0 +1,8 @@
+Flask
+Flask-Restful
+jwt
+Flask_jwt
+werkzeug == 2.0.0
+jinja2 == 3.0.3
+flask-sqlalchemy
+uwsgi
